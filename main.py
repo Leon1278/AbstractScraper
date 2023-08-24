@@ -182,7 +182,7 @@ class ScienceDirectSoup:
 		return self.data
 
 
-# Class to get all abstracts from results in ScienceDirect
+# Class to get all abstracts from results in IEEE
 class IEEESoup:
 
 	def __init__(self, url_init):
@@ -234,7 +234,7 @@ class IEEESoup:
 		return self.data
 
 
-# Class to get all abstracts from results in ScienceDirect
+# Class to get all abstracts from results in Springer
 class SpringerSoup:
 
 	def __init__(self, url_init):
