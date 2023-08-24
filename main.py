@@ -387,6 +387,8 @@ if __name__ == '__main__':
 	acm = Thread(target=scan, args=('acm',))
 	scienceDirect = Thread(target=scan, args=('sciencedirect',))
 	springer = Thread(target=scan, args=('springer',))
+	ieee = Thread(target=scan, args=('ieee',))
 	acm.start()
 	#scienceDirect.start()
 	#springer.start()
+	#ieee.start()
